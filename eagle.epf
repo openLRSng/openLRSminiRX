@@ -1,0 +1,33 @@
+[Eagle]
+Version="06 05 00"
+Platform="Windows"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/solpad.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/transistor-npn.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/transistor-small-signal.lbr"
+UsedLibrary="C:/Users/Kari/Documents/eagle/SparkFun-Eagle-Libraries/SparkFun-Connectors.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/RFM23.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.4.0/lbr/crystal_3225.lbr"
+UsedLibrary="C:/Users/Kari/Documents/eagle/SparkFun-Eagle-Libraries/SparkFun-Resistors.lbr"
+UsedLibrary="C:/Users/Kari/Documents/eagle/stm32.lbr"
+UsedLibrary="C:/Users/Kari/Documents/eagle/SparkFun-Eagle-Libraries/SparkFun-RF.lbr"
+UsedLibrary="C:/Users/Kari/Documents/eagle/SparkFun-Eagle-Libraries/SparkFun-Sensors.lbr"
+UsedLibrary="C:/Users/Kari/Documents/eagle/SparkFun-Eagle-Libraries/SparkFun-Capacitors.lbr"
+UsedLibrary="C:/Users/Kari/Documents/eagle/SparkFun-Eagle-Libraries/SparkFun-DigitalIC.lbr"
+UsedLibrary="C:/Users/Kari/Documents/eagle/SparkFun-Eagle-Libraries/SparkFun-PowerIC.lbr"
+UsedLibrary="C:/Users/Kari/Documents/eagle/SparkFun-Eagle-Libraries/SparkFun-DiscreteSemi.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="422 250 1021 649"
+State=2
+Number=0
+
+[Desktop]
+Screen="1920 1200"
+Window="Win_1"
