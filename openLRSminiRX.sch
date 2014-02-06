@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3875,7 +3875,6 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <part name="FILTER-1" library="minicircuits" deviceset="LFCN" device="-490"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="JP1" library="SparkFun-Connectors" deviceset="M01" device="PTH" value="ANT"/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M01" device="PTH" value="ANTF"/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M01" device="PTH" value="RSSI"/>
 <part name="JP5" library="SparkFun-Connectors" deviceset="M01" device="PTH" value="TXD"/>
@@ -3930,7 +3929,6 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <instance part="FILTER-1" gate="G$1" x="157.48" y="81.28"/>
 <instance part="GND9" gate="1" x="154.94" y="68.58"/>
 <instance part="GND10" gate="1" x="160.02" y="68.58"/>
-<instance part="JP1" gate="G$1" x="139.7" y="88.9" rot="R270"/>
 <instance part="JP2" gate="G$1" x="185.42" y="81.28" rot="R180"/>
 <instance part="JP3" gate="G$1" x="-27.94" y="73.66"/>
 <instance part="JP5" gate="G$1" x="-27.94" y="63.5"/>
@@ -4320,8 +4318,6 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <pinref part="U$1" gate="G$1" pin="ANT"/>
 <pinref part="FILTER-1" gate="G$1" pin="RFIN"/>
 <wire x1="134.62" y1="81.28" x2="139.7" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
-<junction x="139.7" y="81.28"/>
 </segment>
 </net>
 <net name="N$4" class="0">
