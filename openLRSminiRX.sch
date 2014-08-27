@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3894,6 +3894,9 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES"/>
 <part name="Y1" library="SparkFun-FreqCtrl" deviceset="RESONATOR" device="16MHZ" value="16MHz"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
+<part name="JP1" library="SparkFun-Connectors" deviceset="M01" device="PTH" value="DTR"/>
+<part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
+<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES"/>
 </parts>
 <sheets>
 <sheet>
@@ -3948,6 +3951,9 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <instance part="R7" gate="G$1" x="7.62" y="48.26"/>
 <instance part="Y1" gate="G$1" x="22.86" y="50.8"/>
 <instance part="GND12" gate="1" x="22.86" y="38.1"/>
+<instance part="JP1" gate="G$1" x="-15.24" y="86.36"/>
+<instance part="C2" gate="G$1" x="12.7" y="86.36" rot="R90"/>
+<instance part="R8" gate="G$1" x="5.08" y="7.62"/>
 </instances>
 <busses>
 </busses>
@@ -4217,9 +4223,9 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <pinref part="JP5" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="Q1" gate="G$1" pin="B"/>
-<wire x1="-5.08" y1="7.62" x2="0" y2="7.62" width="0.1524" layer="91"/>
-<label x="0" y="7.62" size="1.778" layer="95"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="10.16" y1="7.62" x2="12.7" y2="7.62" width="0.1524" layer="91"/>
+<label x="12.7" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PPM" class="0">
@@ -4293,6 +4299,9 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="U1" gate="G$1" pin="PC6(/RESET)"/>
 <wire x1="22.86" y1="86.36" x2="27.94" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="22.86" y1="86.36" x2="15.24" y2="86.36" width="0.1524" layer="91"/>
+<junction x="22.86" y="86.36"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -4357,6 +4366,20 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <wire x1="25.4" y1="50.8" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="PB7(XTAL2/TOSC2)"/>
 <wire x1="25.4" y1="55.88" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="-7.62" y1="86.36" x2="7.62" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="Q1" gate="G$1" pin="B"/>
+<wire x1="0" y1="7.62" x2="-5.08" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
