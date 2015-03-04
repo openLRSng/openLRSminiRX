@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3848,29 +3848,29 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <parts>
 <part name="U$1" library="SparkFun-RF" deviceset="RFM22" device="SMD"/>
 <part name="U1" library="SparkFun-DigitalIC" deviceset="ATMEGA328_SMT" device="" value="ATMEGA328P"/>
-<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220R"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="LED1" library="led" deviceset="LED" device="SML0805"/>
-<part name="LED2" library="led" deviceset="LED" device="SML0805"/>
-<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES"/>
+<part name="LED1" library="led" deviceset="LED" device="SML0805" value="green"/>
+<part name="LED2" library="led" deviceset="LED" device="SML0805" value="red"/>
+<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="220R"/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES"/>
+<part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="1k"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
-<part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
+<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100n"/>
+<part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES"/>
+<part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
-<part name="C10" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
+<part name="C10" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100n"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="SOT23"/>
-<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES"/>
+<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="SOT23" value="mmbt2222"/>
+<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="1k"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
-<part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="FILTER-1" library="minicircuits" deviceset="LFCN" device="-490"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
@@ -3890,13 +3890,13 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <part name="JP13" library="SparkFun-Connectors" deviceset="M01" device="PTH" value="GND"/>
 <part name="JP14" library="SparkFun-Connectors" deviceset="M01" device="PTH" value="GND"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES"/>
-<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES"/>
+<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10k"/>
+<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="1k"/>
 <part name="Y1" library="SparkFun-FreqCtrl" deviceset="RESONATOR" device="16MHZ" value="16MHz"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M01" device="PTH" value="DTR"/>
-<part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
-<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES"/>
+<part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100n"/>
+<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 </parts>
 <sheets>
 <sheet>
